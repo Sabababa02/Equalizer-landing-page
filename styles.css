@@ -1,0 +1,341 @@
+html, body, #header {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 480px auto;
+    background-position: top -120px right -160px
+}
+
+/*header-ის დასტილვა */
+
+    header{
+        width: 87.2%;
+        margin:0 auto;
+    }
+
+    .logo{
+        margin-top:9%;
+    }
+
+    .header-h1{
+        font-family: 'IBM Plex Sans';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.4545454680919647px;
+        text-align: left;
+        align-self: center;
+        margin-top:64px;
+    }
+
+    .header-p{
+        font-family: 'IBM Plex Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        align-self: center;
+        margin-top:20px;
+    }
+
+
+/* დამთავრდა headeri */
+
+/*main-ის დასტილვა */
+    main{
+        border-radius: 12px;
+        background-color: #191826;
+        background-image: url(assets/bg-pattern-2.svg);
+        background-repeat: no-repeat;
+        background-size: 74.6vw auto;
+        background-position: 12.8vw 0;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        margin-top:10.4rem;
+    }
+
+    .iphone{
+        width: 55.4%;
+        position:relative;
+        top:-98px;
+    }
+
+    .info{
+        height: 546px;
+        width: 400px;
+        background-color: #FA7453;
+        border-radius:12px;
+        padding:0 37px 48px 37px;
+    }
+
+
+    .info-h2{  
+        font-family: 'IBM Plex Sans';
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top:48px;
+    }
+
+    .info-p{
+        font-family: 'IBM Plex Sans';
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-top:1.375rem;
+    }
+
+    .info-p2{
+        padding-top:1.375rem;
+    }
+
+    .span1{
+        font-family: IBM Plex Sans;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0px;
+        text-align: left;
+        color:white;
+    }
+
+    .span2{
+        font-family: IBM Plex Sans;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+    }
+
+    .ios{
+        height: 61px;
+        width: 296px;
+        border-radius: 12px;
+        background-color:#191826;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:46px;
+    }
+
+    .ios-text{
+        font-family: IBM Plex Sans;
+        font-size: 1.1rem;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.18000000715255737px;
+        color:white;
+        margin-left:0.5rem;
+    }
+
+    .android{
+        height: 61px;
+        width: 296px;
+        border-radius: 12px;
+        background-color:white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:16px;
+    }
+
+    .android-text{
+        font-family: IBM Plex Sans;
+        font-size: 1.1rem;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.18000000715255737px;
+        color:#191826;
+        margin-left:0.5rem;
+
+    }
+
+    .android-logo,.ios-logo{
+        height: 15.318781852722168px;
+        width: 17.08316421508789px;
+        
+    }
+/* დამთავრდა main-ი */
+
+
+/* footer-ის დასტილვა*/
+footer{
+    padding: 11.375rem 6.9% 5rem 6.9%;
+}
+
+.logo2{
+    height: 32px;
+    width: 146.0926971435547px;
+}
+
+.footer-p{
+    font-family: IBM Plex Sans;
+    font-size: 1rempx;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top:2rem;
+}
+
+.footer-logos{
+    display:flex;
+    justify-content: space-between;
+    margin-top:3.9375rem;
+    width:6.25rem;
+}
+
+/* დამთავრდა  footerი*/
+
+
+@media screen and (min-width: 768px) {
+
+body{
+    background-image: url("assets/bg-pattern-1.svg");
+    background-repeat: no-repeat;
+    background-size: 266px 400px;
+    background-position: top right
+}
+    /* headeris stilzacia */
+  header{
+    width:64%;
+    margin-left:5%;
+  }
+
+  .header-h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.7272727489471436px;
+  }
+
+  .header-p{
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    
+  }
+
+
+  /*damtavrda */
+
+
+  /*mainis სტილიზაცია */
+  main{
+    width:90%;
+    height:600px;
+    margin:0 auto;
+    margin-top:249px;
+    background-size: 74.6vw auto;
+    background-position: 12.8vw 0;
+  }
+
+  .iphone{
+    width:38%;
+    max-width:312px;
+    top:-138px;
+    left:-25%;
+  }
+
+  .info{
+    position:relative;
+    top:-400px;
+    right:-5%
+  }
+
+  /* dasrulda */
+
+  footer{
+    display:flex;
+    flex-direction: row;
+  }
+  .footer-logos{
+    width:100px;
+} 
+
+  .footer-p{
+    width: 47.65625%;
+  }
+  }
+
+  @media screen and (min-width: 1440px){
+    header{
+        margin-left:11.458333333333332%;
+    }
+
+    .header-h1{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -1px;
+    text-align: left;
+    }
+
+    .header-p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    main{
+        width: 77.08333333333334%;
+        background-size: min(36.45vw, 312px) auto;
+    background-position: min(29.8vw, 336px) -30px;
+    }
+
+    .info{
+        top:0;
+        right:0;
+        top:-75%;
+        right:-20%
+    }
+
+    footer{
+    padding: 11.375rem 11.527777777777779% 5rem 11.527777777777779%;
+    }  
+
+    .footer-logos{
+        justify-self: flex-end;
+        margin-left: 14%;
+    } 
+  }
+
+.ios:hover{
+    background-color: #66E2DC;
+    cursor: pointer;
+}
+
+.android:hover{
+    background-color: #FFB964;
+    cursor: pointer;
+}
+
+.social:hover{
+    filter: invert(54%) sepia(90%) saturate(914%) hue-rotate(325deg)
+    brightness(98%) contrast(99%);
+    cursor: pointer;
+}
